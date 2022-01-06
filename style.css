@@ -61,14 +61,29 @@ a {
   display: flex;
   margin: 10px;
 }
-#card .cards {
+.cardOne {
   background-color: rgba(195, 230, 218, 0.767);
   border-radius: 20px;
   margin-left: 100px;
   margin-right: 20px;
   padding: 30px;
   width: 280px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cardTwo {
+  background-color: rgba(226, 173, 173, 0.548);
+  border-radius: 20px;
+  margin-left: 100px;
+  margin-right: 20px;
+  padding: 30px;
+  width: 280px;
+}
+.cardThree {
+  background-color: rgba(233, 218, 178, 0.445);
+  border-radius: 20px;
+  margin-left: 100px;
+  margin-right: 20px;
+  padding: 30px;
+  width: 280px;
 }
 
 .three-img img {
@@ -104,6 +119,25 @@ a {
   padding-left: 220px;
 }
 /* self created section css */
+.creative {
+  margin-bottom: 30px;
+}
+#creativeHeading {
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 0;
+}
+#creativeDetails {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+.creative .cardCreative {
+  display: flex;
+}
+.creative .cardImg {
+  width: 100px;
+}
 /* footer section css */
 footer {
   text-align: center;
