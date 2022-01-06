@@ -48,3 +48,45 @@ a {
   color: white;
 }
 /*  second section css */
+#card {
+  margin-bottom: 100px;
+}
+#card h1 {
+  text-align: center;
+  font-size: 48px;
+}
+
+#card .three {
+  display: flex;
+  margin: 10px;
+}
+#card .cards {
+  background-color: rgba(195, 230, 218, 0.767);
+  border-radius: 20px;
+  margin-left: 100px;
+  margin-right: 20px;
+  padding: 30px;
+  width: 400px;
+}
+
+.three-img img {
+  width: 150px;
+}
+#develop {
+  display: flex;
+  margin: 0 100px 100px 100px;
+}
+.half-width img {
+  width: 300px;
+}
+.half-width {
+  width: 50%;
+}
+.half-width p {
+  padding-bottom: 40px;
+}
+.half-width h1 {
+  font-size: 40px;
+  line-height: 30px;
+}
+/* third section css */
