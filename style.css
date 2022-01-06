@@ -82,7 +82,7 @@ a {
   align-items: center;
 }
 .half-width img {
-  width: 300px;
+  width: 400px;
 }
 
 .half-width p {
@@ -99,7 +99,7 @@ a {
   margin: 0 100px 100px 100px;
 }
 #global .half-width img {
-  padding-left: 90px;
+  padding-left: 220px;
 }
 /* self created section css */
 /* footer section css */
