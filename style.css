@@ -1,9 +1,50 @@
-* {
+@import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
+body {
   margin: 0;
-  padding: 0;
+  padding: 5%;
   top: 0;
   right: 0;
   /* font-family: 'Lobster', cursive; */
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
+/* first section css */
+#first {
+  display: flex;
+  margin-left: 150px;
+  margin-bottom: 100px;
+}
+#first .half-width img {
+  width: 70%;
+}
+span {
+  color: orange;
+}
+#first .half-width p {
+  padding-left: 30px;
+  padding-bottom: 40px;
+}
+#first .half-width .left-border {
+  border-left: 7px solid;
+  border-color: rgb(221, 47, 82);
+  border-radius: 5px;
+  padding-left: 20px;
+
+  line-height: 50px;
+}
+#first .half-width .left-border h1 {
+  font-size: 60px;
+  font-family: "Lobster", cursive;
+}
+#one {
+  padding-top: 150px;
+}
+a {
+  background-color: crimson;
+  padding: 20px 40px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 700;
+  color: white;
+}
+/*  second section css */
