@@ -24,13 +24,13 @@ span {
 #first .half-width p {
   padding-left: 30px;
   padding-bottom: 40px;
+  font-size: 18px;
 }
 #first .half-width .left-border {
   border-left: 7px solid;
   border-color: rgb(221, 47, 82);
   border-radius: 5px;
   padding-left: 20px;
-
   line-height: 50px;
 }
 #first .half-width .left-border h1 {
@@ -47,6 +47,9 @@ a {
   text-decoration: none;
   font-weight: 700;
   color: white;
+}
+#scrollBelow {
+  margin-top: 50px;
 }
 /*  second section css */
 #card {
