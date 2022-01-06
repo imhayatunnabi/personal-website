@@ -124,7 +124,7 @@ a {
 }
 #creativeHeading {
   text-align: center;
-  font-size: 60px;
+  font-size: 50px;
   margin-bottom: 0;
 }
 #creativeDetails {
@@ -137,6 +137,19 @@ a {
 }
 .creative .cardImg {
   width: 100px;
+}
+/* Corona Alert section css */
+.coronaAlert {
+  font-size: 50px;
+  text-align: center;
+}
+.appImg {
+  height: 600px;
+  width: 500px;
+  margin-left: 160px;
+}
+.coronaText {
+  margin-top: 160px;
 }
 /* footer section css */
 footer {
