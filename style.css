@@ -95,6 +95,7 @@ a {
 /* forth section css */
 #global {
   display: flex;
+  align-items: center;
   margin: 0 100px 100px 100px;
 }
 #global .half-width img {
