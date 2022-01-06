@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
 body {
   margin: 0;
-  padding: 5%;
+  padding: 0;
   top: 0;
   right: 0;
   /* font-family: 'Lobster', cursive; */
@@ -72,16 +72,19 @@ a {
 .three-img img {
   width: 150px;
 }
+/* third section css */
 #develop {
   display: flex;
   margin: 0 100px 100px 100px;
 }
+.half-width {
+  width: 50%;
+  align-items: center;
+}
 .half-width img {
   width: 300px;
 }
-.half-width {
-  width: 50%;
-}
+
 .half-width p {
   padding-bottom: 40px;
 }
@@ -89,4 +92,31 @@ a {
   font-size: 40px;
   line-height: 30px;
 }
-/* third section css */
+/* forth section css */
+#global {
+  display: flex;
+  margin: 0 100px 100px 100px;
+}
+#global .half-width img {
+  padding-left: 90px;
+}
+/* self created section css */
+/* footer section css */
+footer {
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  height: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+footer p {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+}
+footer h1 {
+  color: rgb(255, 255, 255);
+  font-family: "Lobster", cursive;
+}
+footer h1 span {
+  color: rgb(220, 20, 60);
+}
