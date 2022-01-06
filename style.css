@@ -16,6 +16,7 @@ body {
 }
 #first .half-width img {
   width: 70%;
+  padding-left: 35px;
 }
 span {
   color: orange;
@@ -66,7 +67,8 @@ a {
   margin-left: 100px;
   margin-right: 20px;
   padding: 30px;
-  width: 400px;
+  width: 280px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .three-img img {
